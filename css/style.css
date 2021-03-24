@@ -22,13 +22,15 @@ body {
 .float-sx {
     float: left;
 }
+.text-cen {
+    text-align: center;
+}
 /* header */
-header{
+header {
     width: 100%;
     height: 550px;
     background-color: #0C335B;
 }
-
 .header-nav {
     height: 80px;
     line-height: 80px;
@@ -56,7 +58,7 @@ header{
     display: inline-block;
     padding: 0 5px;
 }
-.list-inl a:hover:not(.btn)  {
+.list-inl a:hover:not(.btn) {
     color: #7CBB33;
 }
 a {
@@ -109,3 +111,53 @@ h1 {
 #btn-lg {
     padding:20px;
 }
+/* main */
+main {
+    height: 900px;
+    background-color: chartreuse;
+}
+.intro-main {
+    height: 200px;
+    background-color:#DCDCDC;
+}
+.intro-main h3 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+.intro-main p {
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 50px;
+    color: #808080;
+}
+
+.col {
+    width: 33%;
+    height: 600px; 
+    background-color: lightblue;
+    margin: 2px;
+    position: relative;
+}
+#image1 {
+    width: 30%;
+}
+#image2 {
+    width: 50%;
+}
+#image3 {
+    width: 40%;
+}
+h4 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #7CBB33;
+}
+.insert {
+    position: absolute;
+    top:25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+}
+
+
