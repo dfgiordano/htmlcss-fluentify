@@ -10,6 +10,12 @@ body {
 .relat {
     position: relative;
 }
+.vert-m {
+    vertical-align: middle;
+}
+.backgreen {
+    background-color: #7CBB33;
+}
 .w-80 {
     width: 80%;
     margin: 0 auto;
@@ -28,40 +34,33 @@ body {
 /* header */
 header {
     width: 100%;
-    height: ;
     background-color: #0C335B;
 }
 .header-nav {
-    height: 80px;
+    height: 120px;
     line-height: 80px;
 }
 .navl-side {
     width: 15%;
-    vertical-align: middle;
 }
 .navm-side {
     width: 40%;
     height: 100%;
-    vertical-align: middle;  
     text-align: left;
 }
 .navr-side {
     width: 45%;
     height: 100%;
-    vertical-align: middle;
     text-align: right;
-}
-#logo {
-    vertical-align: middle;
 }
 .list-inl > li {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 15px;
 }
 .list-inl a:hover:not(.btn) {
     color: #7CBB33;
 }
-a {
+li > a {
     line-height: 80px;
     font-size: 14px;
     text-decoration: none;
@@ -81,7 +80,8 @@ a {
     border: 1px solid #7CBB33;
     background-color: #7CBB33;
 }
-.btn-green:hover {
+.btn-green:hover,
+.btn #btn-lg {
     background-color: white;
     color: #7CBB33;
 }
@@ -107,9 +107,13 @@ h1 {
     padding-bottom: 20px;
     color: white;
     font-weight: 500;
+    margin-bottom: 25px;
 }
-#btn-lg {
+.btn-lg {
     padding:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
 }
 .intro-main {
     height: 200px;
@@ -123,10 +127,9 @@ h1 {
 .intro-main p {
     font-size: 25px;
     font-weight: 500;
-    padding-top: 50px;
+    padding-top: 30px;
     color: #808080;
 }
-
 .col {
     width: 33%;
     margin-top: 50px;
@@ -134,17 +137,20 @@ h1 {
 }
 h4 {
     font-size: 35px;
-    font-weight: 500;
     line-height: 50px;
+    font-weight: 500;
+    padding-top: 50px;
     color: #7CBB33;
+
 }
-.p-cent{
+.middle-text {
     font-size: 22px;
     font-weight: 350;
     line-height: 30px;
-    text-align: center;
-    text-indent: 15px;
     color: #808080;
+}
+.p-cent{
+    text-indent: 15px; 
 }
 #image1 {
     display: block;
@@ -166,30 +172,71 @@ h4 {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    
 }
-
-
-
-
-
-/* #image1 {
-    width: 30%;
+/* section */
+.block1 {
+    height: 550px;
 }
-#image2 {
-    width: 50%;
-    padding-left: 50px;
+.last-hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.last-sec {
+    width: 49%;
+    height: 400px;
+    padding-bottom: 30px;
+} 
+#mountains {
+    display:block;
+    height: 500px;
+    margin: auto;
+}
+.last-sec h3 {
+    font-size: 50px;
+    font-weight: 500;
     padding-top: 50px;
 }
-#image3 {
-    width: 40%;
+.last-sec p {
+    font-size: 25px;
+    line-height: 35px;
+    color: #808080;
+    padding-top: 10px;
 }
-
-.insert {
-    position: absolute;
-    top:25%;
-    left: 25%;
-    transform: translate(-25%, -25%);
-} */
-
-
+.last-sec a {
+    display: block;
+    font-size: 18px;
+    padding-top: 30px;
+    color:#628FC1;
+}
+/* footer */
+footer {
+    height: 150px;
+    line-height: 150px;
+    background-color:#DCDCDC;
+}
+.title-footer {
+    font-size: 50px;
+    font-weight: 500;
+}
+.blocco2 {
+    font-size: 25px;
+    float:right;
+}
+.select {
+    text-decoration: underline;
+}
+.blocco2 li {
+    color: #808080;
+    margin: 5px;
+}
+.linguetta {
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+}
