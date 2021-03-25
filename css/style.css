@@ -91,7 +91,7 @@ li > a {
 }
 /* jumbotron */
 .jumbotron {
-    height: 470px;
+    height: 500px;
     background-image: url('../img2/background-header.png');
     background-size: 65% auto;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ li > a {
 }
 .jumbotron div {
     position: absolute;
-    bottom : 20%;
+    bottom : 30%;
     width: 50%;
 }
 h1 {
@@ -141,7 +141,6 @@ h4 {
     font-weight: 500;
     padding-top: 50px;
     color: #7CBB33;
-
 }
 .middle-text {
     font-size: 22px;
@@ -219,11 +218,12 @@ footer {
     font-weight: 500;
 }
 .blocco2 {
-    font-size: 25px;
+    font-size: 23px;
     float:right;
 }
 .select {
     text-decoration: underline;
+    word-spacing: 70px;
 }
 .blocco2 li {
     color: #808080;
@@ -234,6 +234,7 @@ footer {
     height: 40px;
     border-radius: 5px;
     text-transform: uppercase;
+    text-decoration: none;
     padding-top: 10px;
     color: white;
     position: fixed;
